@@ -1,2 +1,5 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+# OverlayFS
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
