@@ -135,7 +135,13 @@ $(call soong_config_set,lineage_health,fast_charge_value_none,1)
 
 # IMS
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayCommon
+    CarrierConfigOverlayCommon \
+    ImsStack \
+    Iwlan \
+    QualifiedNetworksService \
+    TelephonyOverlayCommon
+
+$(call inherit-product, packages/modules/ImsMedia/imsmedia.mk)
 
 # Init
 PRODUCT_PACKAGES += \
@@ -228,6 +234,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensor.stepcounter.prebuilt.xml \
     android.hardware.sensor.stepdetector.prebuilt.xml \
     android.hardware.telephony.gsm.prebuilt.xml \
+    android.hardware.telephony.ims.prebuilt.xml \
     android.hardware.telephony.satellite.prebuilt.xml \
     android.hardware.usb.accessory.prebuilt.xml \
     android.hardware.usb.host.prebuilt.xml \
