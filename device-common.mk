@@ -135,6 +135,7 @@ $(call soong_config_set,lineage_health,fast_charge_value_none,1)
 
 # IMS
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayCommon \
     ImsStack \
     Iwlan \
     QualifiedNetworksService \
