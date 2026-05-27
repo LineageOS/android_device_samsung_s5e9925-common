@@ -82,6 +82,7 @@ TARGET_NO_RADIOIMAGE := true
 include hardware/samsung_slsi-linaro/config/BoardConfig9925.mk
 
 # Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
 
 # Recovery
