@@ -89,6 +89,7 @@ TARGET_NO_RADIOIMAGE := true
 include hardware/samsung_slsi-linaro/config/BoardConfig9925.mk
 
 # Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/configs/props/product.prop
 TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
 
 # Recovery
@@ -107,6 +108,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 VENDOR_SECURITY_PATCH := 2026-07-01
 
 # SELinux
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += packages/modules/ImsMedia/sepolicy/system_ext/private # !TEMP!
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_SEPOLICY_TEE_FLAVOR := teegris
 include device/samsung_slsi/sepolicy/sepolicy.mk
