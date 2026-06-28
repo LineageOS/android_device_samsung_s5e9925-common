@@ -102,10 +102,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.hardware.drm.clearkey
 
-# Fastbootd
-PRODUCT_PACKAGES += \
-    fastbootd
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung \
