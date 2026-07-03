@@ -69,6 +69,3 @@
 
 # UWB
 /dev/srxxx                                                                                      u:object_r:uwb_device:s0
-
-# ZRAM
-/data/per_boot(/.*)?                                                                            u:object_r:per_boot_file:s0
