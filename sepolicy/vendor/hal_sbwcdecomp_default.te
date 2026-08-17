@@ -16,7 +16,7 @@ allow hal_sbwcdecomp_default video_device:chr_file rw_file_perms;
 
 # appdomain rules
 binder_call(appdomain, hal_sbwcdecomp_default)
-allow { platform_app priv_app system_app untrusted_app } hal_sbwcdecomp_service:service_manager find;
+allow { appdomain -isolated_app_all } hal_sbwcdecomp_service:service_manager find;
 
 # surfaceflinger rules
 binder_call(surfaceflinger, hal_sbwcdecomp_default)
