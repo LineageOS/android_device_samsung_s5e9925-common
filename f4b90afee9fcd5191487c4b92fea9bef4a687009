@@ -16,6 +16,24 @@
       "message": "Why only target erofs for gapps builds? Logic doesnt make sense since gapps are rarely included",
       "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23246767_d4e0242a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-08-19T23:06:32Z",
+      "side": 1,
+      "message": "For private builds.",
+      "parentUuid": "c9859f16_944e07e3",
+      "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
