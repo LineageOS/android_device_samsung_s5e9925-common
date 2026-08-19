@@ -34,6 +34,24 @@
       "parentUuid": "c9859f16_944e07e3",
       "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd1f306a_d93d7a3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-08-19T23:09:21Z",
+      "side": 1,
+      "message": "Why not just use I88984f6137c0bc9f01da742a7a485445c2162157 then both gapps and non gapps can gain?",
+      "parentUuid": "23246767_d4e0242a",
+      "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
