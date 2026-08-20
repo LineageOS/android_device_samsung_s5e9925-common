@@ -52,6 +52,24 @@
       "parentUuid": "23246767_d4e0242a",
       "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4a5504c_f5cf59c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-08-20T00:17:31Z",
+      "side": 1,
+      "message": "Read the change. Vendor and dlkm are already EROFS, this change makes system and co as well when it\u0027s built with GMS.",
+      "parentUuid": "dd1f306a_d93d7a3d",
+      "revId": "f4b90afee9fcd5191487c4b92fea9bef4a687009",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
