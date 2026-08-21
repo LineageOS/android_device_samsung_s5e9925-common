@@ -152,3 +152,6 @@ vendor/bin/tzts_daemon
 vendor/etc/init/teegris_v4.rc
 vendor/lib64/libteecl.so
 vendor/lib64/libuuid.so;MODULE_SUFFIX=_vendor
+
+# VNDK
+vendor/lib64/libcrypto.so:vendor/lib64/libcryptx.so;FIX_SONAME|895be04c0da80d3ba9f4320120dcc1a473e81dac|3ae824c0ade1d0f9db693041570219727770ee88
