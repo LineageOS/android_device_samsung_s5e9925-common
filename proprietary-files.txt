@@ -89,9 +89,6 @@ vendor/firmware/OD_V3.5.2_08_31_VGA_PAMIR_ENN_BGRA.nnc
 vendor/firmware/secure_configuration.flm.cfg.bin
 vendor/firmware/volumemonitor.bin
 
-# Gatekeeper
-vendor/lib64/hw/gatekeeper.s5e9925.so
-
 # GNSS
 vendor/bin/hw/gps.sh
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.1-service
