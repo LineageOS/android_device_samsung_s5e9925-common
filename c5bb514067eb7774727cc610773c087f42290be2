@@ -16,6 +16,24 @@
       "message": "you can\u0027t just open a vendor hardware hal to the entire appdomain... this completely breaks treble sandboxing. random third-party apps should never talk directly to a hardware decoder. they need to go through mediaserver, mediacodec, or surfaceflinger, doing this is a massive security hole and opens up the device to media parsing exploits from any installed apk. you need to trace which exact system service is getting denied and allow only that, not the whole appdomain",
       "revId": "c5bb514067eb7774727cc610773c087f42290be2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132f5799_c878c3a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-08-22T12:26:26Z",
+      "side": 1,
+      "message": "I\u0027d normally agree with you, but I have no choice, this is how Samsung thought out this feature and how they do it on stock. \n\n(typeattributeset base_typeattr_650_31_0 ((and (domain) ((not (isolated_app_31_0))))))\n(allow base_typeattr_650_31_0 hal_sbwcdecomp_hwservice (hwservice_manager (find)))",
+      "parentUuid": "cb547231_81683e2e",
+      "revId": "c5bb514067eb7774727cc610773c087f42290be2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
