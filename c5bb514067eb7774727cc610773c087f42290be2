@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb547231_81683e2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37797
+      },
+      "writtenOn": "2026-08-22T12:12:18Z",
+      "side": 1,
+      "message": "you can\u0027t just open a vendor hardware hal to the entire appdomain... this completely breaks treble sandboxing. random third-party apps should never talk directly to a hardware decoder. they need to go through mediaserver, mediacodec, or surfaceflinger, doing this is a massive security hole and opens up the device to media parsing exploits from any installed apk. you need to trace which exact system service is getting denied and allow only that, not the whole appdomain",
+      "revId": "c5bb514067eb7774727cc610773c087f42290be2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
