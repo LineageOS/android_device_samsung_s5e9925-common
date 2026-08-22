@@ -47,7 +47,15 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usbv2.default \
     bluetooth_with_le_audio_policy_configuration_7_0.xml \
-    SamsungDAP
+    libsamsungSoundbooster_plus \
+    SamsungDAP \
+    SoundBoosterStage
+
+ifeq ($(BOARD_HAVE_NXP_NFC), true) # RGB
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/b0s:lib_SoundBooster_ver1100)
+else # r11s
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/b0s:lib_SoundBooster_ver2000)
+endif
 
 TARGET_EXCLUDES_AUDIOFX := true
 
