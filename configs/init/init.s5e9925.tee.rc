@@ -7,5 +7,5 @@ service tee_script /vendor/bin/tee.sh
 on early-init
     start tee_script
 
-on fs && property:vendor.teegris.new=true
+on post-fs && property:vendor.teegris.new=true
     mount none /vendor/etc/tee_new /vendor/tee bind
