@@ -62,6 +62,10 @@ genfscon sysfs /kernel/gpu/gpu_max_clock                                        
 genfscon sysfs /kernel/mm/vmscan/am_app_launch                                                                                              u:object_r:sysfs_power_writable:s0
 genfscon sysfs /kernel/mm/vmscan/mem_boost_mode_system                                                                                      u:object_r:sysfs_power_writable:s0
 
+# PowerShare
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery/wc_tx_en                          u:object_r:sysfs_battery_writable:s0
+genfscon sysfs /devices/platform/samsung_mobile_device/samsung_mobile_device:battery/power_supply/battery/wc_tx_stop_capacity               u:object_r:sysfs_battery_writable:s0
+
 # Sensors
 genfscon sysfs /class/sensors/range_sensor                                                                                                  u:object_r:sysfs_sensors_writable:s0
 genfscon sysfs /devices/platform/acpm_mfd_bus@15960000/i2c-13/13-001f/s2mps25-gpadc/iio:device40/name                                       u:object_r:sysfs_iio:s0
