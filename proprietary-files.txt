@@ -128,6 +128,16 @@ vendor/lib64/libsecnativefeature.so
 
 # RIL (S926BXXU5BYD9)
 vendor/bin/hw/rild|560cf02e1090d2207af38598b4a20121333fdca3
+vendor/etc/locale/plmn_delta_eng.bin|5a1a2571ac703807da642d09c54a992244fa6654
+vendor/etc/locale/plmn_delta_zh-rCN.bin|b413cb77b463ccd496cfe5af4bdeb49ae8aff357
+vendor/etc/locale/plmn_delta_zh-rHK.bin|360f20bca041e121531118d96b8771e2dfc7ba98
+vendor/etc/locale/plmn_delta_zh-rTW.bin|034e834906858c1349f22eafbbd882b86dbce7d4
+vendor/etc/plmn_delta_attaio.bin|751a1c7105f1c03fc196689c2a71e2c69aa14e1f
+vendor/etc/plmn_delta_hktw.bin|85e08766111c7fb6699b64784afbce2c9255c53b
+vendor/etc/plmn_delta_ltn.bin|4a6f44ae57e84394e6f31814f26fc4fcd7d41b62
+vendor/etc/plmn_delta_usagsm.bin|9a25ec9e9da16ed2f8a9db07f037fe08283b24e5
+vendor/etc/plmn_delta.bin|dbcc4d73dca31bd132b042e36be988701c42a552
+vendor/etc/plmn_se13_prebuilt.bin|b935b074c729261f2819823f533f227f0bea917f
 vendor/etc/vintf/manifest/vendor.samsung.hardware.radio_manifest_2_34.xml|8a78a095378827de038b13e0470f6b43d60cf71a
 vendor/etc/vintf/manifest/vendor.samsung.hardware.sehradio_manifest_2_34.xml|ebbe359a9b2d78cb88debe79d9183c039afb7c01
 vendor/lib64/libril_sem.so|f472e6e480360ec25dec47fc9d503f42d153bc53
