@@ -350,6 +350,7 @@ on boot
     chown system radio /sys/class/power_supply/battery/call
     chown system radio /sys/class/power_supply/battery/charge_otg_control
     chown system radio /sys/class/power_supply/battery/charge_uno_control
+    chown system radio /sys/class/power_supply/battery/charging_enabled
     chown system radio /sys/class/power_supply/battery/charger_ic_name
     chown system radio /sys/class/power_supply/battery/chg_soc_lim
     chown system radio /sys/class/power_supply/battery/cisd_cable_data
