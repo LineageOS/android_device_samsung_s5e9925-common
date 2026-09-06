@@ -10,9 +10,6 @@ type jsqz_device, dev_type;
 # Memtrack
 type dmabuf_trace_device, dev_type;
 
-# NPU
-type npu_device, dev_type;
-
 # Sensors
 type range_sensor_device, dev_type;
 
