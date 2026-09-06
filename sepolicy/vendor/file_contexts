@@ -36,9 +36,6 @@
 /dev/p61                                                                                        u:object_r:nfc_device:s0
 /dev/pn547                                                                                      u:object_r:nfc_device:s0
 
-# NPU
-/dev/vertex10                                                                                   u:object_r:npu_device:s0
-
 # SYSFS
 /sys/devices/platform/(.*)/wakeup[0-9]*(/.*)?                                                   u:object_r:sysfs_wakeup:s0
 /sys/devices/platform/14cc0000.contexthub/iio:device[0-9]*/buffer/data_available                u:object_r:sysfs_iio:s0
