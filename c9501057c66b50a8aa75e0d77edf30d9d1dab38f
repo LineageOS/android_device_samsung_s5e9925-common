@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8e8d7e8_95b9923f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-07T16:41:21Z",
+      "side": 1,
+      "message": "it\u0027d make more sense to have a common repo with all of these configs that you\u0027d just enable with a single line in device trees instead of duplicating it across dozen samsung phones",
+      "revId": "c9501057c66b50a8aa75e0d77edf30d9d1dab38f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
