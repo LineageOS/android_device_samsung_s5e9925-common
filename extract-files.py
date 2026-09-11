@@ -83,7 +83,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_getId')
         .clear_symbol_version('AHardwareBuffer_getNativeHandle')
         .clear_symbol_version('AHardwareBuffer_release')
-        .clear_symbol_version('ANativeWindow_getFormat'),
+        .clear_symbol_version('ANativeWindow_getFormat')
+        .replace_needed('android.hardware.graphics.mapper@4.0-impl-sgr', 'mapper.sgr.so'),
     'vendor/lib64/libsensorlistener.so': blob_fixup()
         .add_needed('libshim_sensorndkbridge.so')
         .add_needed('libutils-v32.so')

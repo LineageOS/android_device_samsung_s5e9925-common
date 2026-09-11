@@ -114,7 +114,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.composer.hwc3-service.slsi \
     android.hardware.graphics.allocator-aidl-service-sgr \
-    android.hardware.graphics.mapper@4.0-impl-sgr \
+    mapper.sgr \
     android.hardware.memtrack-service.exynos \
     libdrm_sgpu \
     vendor.samsung_slsi.hardware.SbwcDecompService-service
