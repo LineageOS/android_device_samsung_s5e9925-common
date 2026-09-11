@@ -20,7 +20,7 @@
 
 # Graphics
 /dev/dmabuf_trace                                                                               u:object_r:dmabuf_trace_device:s0
-/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-sgr.so                               u:object_r:same_process_hal_file:s0
+/vendor/lib64/hw/mapper.sgr.so                                                                  u:object_r:same_process_hal_file:s0
 /vendor/lib64/hw/vulkan.samsung.so                                                              u:object_r:same_process_hal_file:s0
 /vendor/lib64/libdrm_sgpu.so                                                                    u:object_r:same_process_hal_file:s0
 /vendor/lib64/libdrm.so                                                                         u:object_r:same_process_hal_file:s0
