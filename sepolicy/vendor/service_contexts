@@ -8,3 +8,6 @@ vendor.nxp.nxpnfc_aidl.INxpNfc/default                                          
 
 # SBWC
 vendor.samsung_slsi.hardware.SbwcDecompService.ISbwcDecompService/default       u:object_r:hal_sbwcdecomp_service:s0
+
+# SGPU
+mapper/sgr                                                                      u:object_r:hal_graphics_mapper_service:s0
