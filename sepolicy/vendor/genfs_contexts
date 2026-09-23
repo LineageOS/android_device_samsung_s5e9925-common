@@ -103,7 +103,6 @@ genfscon sysfs /devices/platform/mfc/video4linux/video9/name                    
 
 # Vibrator
 genfscon sysfs /devices/virtual/sec_vib_inputff/control/use_sep_index                                                                       u:object_r:sysfs_vibrator:s0
-genfscon sysfs /devices/virtual/vib_info_class/vib_support_info/functions                                                                   u:object_r:sysfs_vibrator:s0
 
 # Wi-Fi
 genfscon sysfs /devices/platform/113b0000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/net/p2p0/mtu                                            u:object_r:sysfs_net:s0
