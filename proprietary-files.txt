@@ -1,5 +1,5 @@
-# All unpinned blobs are from S711BXXSHGZG1
-# Vendor security patch level 2026-07-01
+# All unpinned blobs are from S711BXXSJGZI4
+# Vendor security patch level 2026-09-05
 
 # Audio 
 vendor/etc/audio_board_info.xml
