@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Default values for LiveDisplay -->
-    <integer name="config_outdoorAmbientLux">4000</integer>
+    <integer name="config_outdoorAmbientLux">5000</integer>
     <integer name="config_outdoorAmbientLuxHysteresis">400</integer>
 
     <!-- Defines the actions shown in advanced reboot submenu -->
