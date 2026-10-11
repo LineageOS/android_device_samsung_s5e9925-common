@@ -30,7 +30,7 @@ def AddImage(info, basename, dest):
 
 def OTA_Assertions(info):
     info.script.AppendExtra('if getprop("vendor.firmware_flashable") != "true" then')
-    info.script.AppendExtra('abort("E3004: This package requires S90*BXXSIFYI3|S90*BXXSNGZD7 firmware");')
+    info.script.AppendExtra('abort("E3004: This package requires S90*BXXSIFYI3|S90*BXXSNGZH3 firmware");')
     info.script.AppendExtra('endif;')
     pass
 
